@@ -12,6 +12,8 @@ public class IntegerPropertyDemo {
 		counter.set(2);
 		counterValue = counter.get();
 		System.out.println("Counter value: " + counterValue);
+		counter.set(3);
+		counterValue = counter.get();
+		System.out.println("Counter value: " + counterValue);
 	}
-
 }
